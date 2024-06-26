@@ -28,6 +28,7 @@ nav a:hover{
 }
 main{
     align-self: center;
+    max-width: fit-content;
     padding: 40px;
     display: grid;
     grid-template-columns: 2fr 1fr;
