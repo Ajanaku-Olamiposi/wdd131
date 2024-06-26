@@ -1,0 +1,36 @@
+body{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+}
+h1, h2, footer{
+    background-color: blue;
+    text-align: center;
+    -webkit-text-fill-color: white;
+    font-weight: 100;
+}
+nav{
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+}
+nav a{
+   text-decoration: none;
+   -webkit-text-fill-color: white;
+}
+nav a:hover{
+    border: 1px solid blue;
+}
+.active{
+    color: yellow;
+}
+main{
+    align-self: center;
+    max-width:
+    padding: 40px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    justify-content: space-around;
+}
+.card{
+    border: 2px solid white;
+}
