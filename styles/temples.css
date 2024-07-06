@@ -68,8 +68,10 @@ nav {
 }
 main{
     background-color: rgb(67, 67, 159);
-    display: grid;
     margin-top: 15px; 
+}
+div{
+	display: grid;
 }
 img{
     display: block;
