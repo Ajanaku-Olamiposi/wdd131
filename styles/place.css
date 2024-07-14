@@ -1,3 +1,9 @@
+:root{
+    --primary-color:black ;
+    --secondary-color: white;
+    --paragraph-font:roboto, serif;
+
+}
 body {
 	display: flex;
 	flex-direction: column;
