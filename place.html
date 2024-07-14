@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Holiday In Paris</title>
+    <meta name="description" content="BYU-Idaho WDD 131 Web Fundamentals">
+    <meta name="author" content="Ajanaku Olamiposi">
+    <link rel="stylesheet" href="styles/place.css">
+    <link rel="stylesheet" href="styles/place-large.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
+    <script src="scripts/place.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Paris,France.</h1>
+    </header>
+    <main>
+        <picture>
+            <source media="(min-width: 700px)" srcset="images/paris.webp" width="1920">
+            <source  media="(min-width: 300px)" srcset="/images/paris3.webp" width="600">
+            <img src="images/paris3.webp" alt="Orem Utah Temple" width="400" height="200">
+        </picture>
+        <section class="data">
+            <h2>Data</h2>
+            <ul>
+                <li>Area: 587sqkm</li>
+                <li>Population: 278</li>
+                <li>Capital: Antan</li>
+                <li>Language: French</li>
+                <li>Currency:</li>
+                <li>Time Zone: UTC+3</li>
+                <li>Calling Code: +261</li>
+                <li>Internet TLD: .mg</li>
+            </ul>
+        </section>
+        <section class="weather">
+            <h2 class="cloud">Weather</h2>
+                <!-- <source media="(max-width: 700px)" srcset="images/cloud.svg"  width="200" height="100"> -->
+            <img src="images/cloud.svg" alt="A Weather Icon" width="200" height="100">
+            <ul id="windChillList">
+                <li>Temperature: 10℃</li>
+                <li>Conditions: Partly Cloudy</li>
+                <li>Wind: 5km/h</li>
+                <li class="Wind Chill"></li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>© <span id="currentyear"></span> | Ajanaku Olamiposi | London, Uk</p>
+        <p id="lastmodified"></p>
+    </footer> 
+</body>
+</html>

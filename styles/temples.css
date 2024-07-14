@@ -12,10 +12,10 @@ header,footer{
     background-color: aquamarine;
 }
 
-h2,footer,figcaption{
+h2,footer{
     text-align: center;
 }
-h2,figcaption{
+h2{
     -webkit-text-fill-color: wheat;
 }
 h1 {
@@ -54,7 +54,6 @@ nav {
 	padding: 1rem;
 	text-align: center;
 	text-decoration: none;
-	color: #fff;
 }
 .navigation a:hover {
 	background-color: #bbb;
@@ -76,4 +75,8 @@ img{
     margin-left: auto;
     margin-right: auto;
 	width: 220px;
+}
+figcaption{
+	text-align: center;
+	-webkit-text-fill-color: wheat;
 }
