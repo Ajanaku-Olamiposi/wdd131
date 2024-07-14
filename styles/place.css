@@ -1,13 +1,13 @@
 :root{
-    --primary-color:black ;
-    --secondary-color: white;
+    --primary-color:blue ;
     --paragraph-font:roboto, serif;
 
 }
 body {
 	display: flex;
 	flex-direction: column;
-	justify-content: center;  
+	justify-content: center;
+    font: var(--paragraph-font);  
 }
 h1{
     color: white;
@@ -32,7 +32,7 @@ ul{
 }
 footer{
     color: white;
-    background-color: blue;
+    background-color: var(--primary-color);
     text-align: center;
 }
 img{
