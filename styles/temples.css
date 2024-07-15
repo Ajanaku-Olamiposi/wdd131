@@ -64,7 +64,7 @@ nav {
 	display: block;
 }
 main{
-    background-color: rgb(67, 67, 159);
+    background-color: rgb(221, 221, 240);
     margin-top: 15px; 
 }
 div{
@@ -76,8 +76,4 @@ img{
     margin-right: auto;
 	max-width:100%;
     height:auto;
-}
-figcaption{
-	text-align: center;
-	color: wheat;
 }
