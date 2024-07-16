@@ -9,14 +9,14 @@ main{
 	margin: 1rem auto;
 }
 header,footer{
-    background-color: aquamarine;
+    background-color: wheat;
 }
 
 h2,footer{
     text-align: center;
 }
 h2{
-    -webkit-text-fill-color: wheat;
+    color: wheat;
 }
 h1 {
 	text-align: left;
@@ -74,9 +74,9 @@ img{
     display: block;
     margin-left: auto;
     margin-right: auto;
-	width: 220px;
+	width: 300px
 }
-figcaption{
+.magic{
 	text-align: center;
-	-webkit-text-fill-color: wheat;
+	color: wheat;
 }

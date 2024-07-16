@@ -28,8 +28,11 @@
   .navigation {
 		flex-direction: row;
 		flex: 1;
-		background-color: aquamarine;
+		background-color: white;
 		max-width: 500px;
+		border-left: 3px solid blue;
+		border-right: 3px solid blue;
+		border-top: 3px solid blue;
 	}
 	.navigation a {
 		display: block;
