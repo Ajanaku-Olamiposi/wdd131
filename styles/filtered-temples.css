@@ -1,12 +1,9 @@
 body{
     font-family: "Roboto", sans-serif;
     font-weight: 400;
-    max-width: 500px;
-    margin: 1rem auto;
-}
-main{
-	max-width: 500px;
-	margin: 1rem auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 header,footer{
     background-color: wheat;
@@ -64,7 +61,7 @@ nav {
 	display: block;
 }
 main{
-    background-color: rgb(67, 67, 159);
+    background-color: rgb(8, 8, 100);
     margin-top: 15px; 
 }
 div{
@@ -79,4 +76,7 @@ img{
 .magic{
 	text-align: center;
 	color: wheat;
+}
+.p{
+	font-size: 1.0rem;
 }

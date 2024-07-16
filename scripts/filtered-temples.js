@@ -20,7 +20,7 @@ const temples = [
     year: 2005,
     area: 11500,
     imageUrl:
-    "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/aba-nigeria/400x250/aba-nigeria-temple-lds-273999-wallpaper.jpg"
+     "images/aba.jpg"
   },
   {
     templeName: "Manti Utah",
@@ -29,7 +29,7 @@ const temples = [
     year: 1888,
     area: 74792,
     imageUrl:
-    "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/manti-utah/400x250/manti-temple-768192-wallpaper.jpg"
+     "images/manti.jpg"
   },
   {
     templeName: "Payson Utah",
@@ -38,7 +38,7 @@ const temples = [
     year: 2015,
     area: 96630,
     imageUrl:
-    "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/payson-utah/400x225/payson-utah-temple-exterior-1416671-wallpaper.jpg"
+     "images/payson.jpg"
   },
   {
     templeName: "Yigo Guam",
@@ -47,7 +47,7 @@ const temples = [
     year: 2020,
     area: 6861,
     imageUrl:
-    "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/yigo-guam/400x250/yigo_guam_temple_2.jpg"
+     "images/yigo.jpg"
   },
   {
     templeName: "Washington D.C.",
@@ -56,7 +56,7 @@ const temples = [
     year: 1974,
     area: 156558,
     imageUrl:
-    "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/washington-dc/400x250/washington_dc_temple-exterior-2.jpeg"
+     "images/wash.jpeg"
   },
   {
     templeName: "Lima Perú",
@@ -65,7 +65,7 @@ const temples = [
     year: 1986,
     area: 9600,
     imageUrl:
-    "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/lima-peru/400x250/lima-peru-temple-evening-1075606-wallpaper.jpg"
+     "images/lima.jpg"
   },
   {
     templeName: "Mexico City Mexico",
@@ -74,7 +74,7 @@ const temples = [
     year: 1983,
     area: 116642,
     imageUrl:
-    "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/mexico-city-mexico/400x250/mexico-city-temple-exterior-1518361-wallpaper.jpg"
+     "images/mexico.jpg"
   },
   {
     templeName: "Barranquilla Colombia",
@@ -83,7 +83,7 @@ const temples = [
     year: 2018,
     area: 25349,
     imageUrl:
-  "https://churchofjesuschristtemples.org/assets/img/temples/barranquilla-colombia-temple/barranquilla-colombia-temple-1846-main.jpg"
+     "images/colo.jpg"
   },
   {
     templeName: "Accra Ghana",
@@ -92,7 +92,7 @@ const temples = [
     year:1998,
     area: 17500,
     imageUrl:
-    "https://churchofjesuschristtemples.org/assets/img/temples/accra-ghana-temple/accra-ghana-temple-13760-main.jpg"
+     "images/accra.jpg"
   },
   {
     templeName: "London England",
@@ -101,7 +101,7 @@ const temples = [
     year:1958,
     area: 42652,
     imageUrl:
-    "https://churchofjesuschristtemples.org/assets/img/temples/london-england-temple/london-england-temple-4243-main.jpg"
+    "images/lon.jpg"
   }
 ];
 
@@ -145,6 +145,8 @@ function createTempleCard(filteredTemples){
       img.setAttribute("src", temple.imageUrl);
       img.setAttribute("alt", `${temple.templeName} Temple`);
       img.setAttribute("loading", "lazy");
+      img.setAttribute("width", "300");
+      img.setAttribute("height", "200");
 
       card.appendChild(name);
       card.appendChild(location);
