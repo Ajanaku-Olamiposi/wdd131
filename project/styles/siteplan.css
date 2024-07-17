@@ -1,0 +1,15 @@
+body{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+    padding-left: 30px;
+    background-color: #000000
+}
+h1,h2,h3,footer p{
+    color:#f5deb3;
+}
+p,ul,ol{
+    color: #ffffff;
+}
