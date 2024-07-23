@@ -13,11 +13,12 @@ body{
 main{
     background-color: aliceblue;
     padding-left: 2.5px;
+    padding-bottom: 35px;
 }
 .form label{
     display: block;
     padding-top: 1rem;
-    font-size: .9rem;
+    font-size: 1.18rem;
 }
 .form input[type='text'],
 .form input[type='date'],
@@ -44,32 +45,47 @@ main{
 input[type="radio"]:checked ~ span{
     color: red;
 }
+div{
+    position: relative;
+}
 .form input[type='submit']{
     border: none;
-    color:white;
-    background-image: linear-gradient(red,blue);
+    color:blue;
+    background-image: linear-gradient(black,aliceblue,black);
     border-radius: 6px;
     /* width: 96%; */
     padding: .8rem;
     /* max-width: 400px; */
     margin-top: .2rem;
     /* margin: -1rem 2% 2rem 2%; */
-    box-shadow: 1px 1px 4px blue ;
+    /* box-shadow: 1px 1px 4px black ; */
     appearance: none;
+    position: absolute;
+    bottom: px;
+    right: 10px;
+    font-size: 1.18rem;
 }
-.form input:required{
+.form input:required,
+.form select,
+.form input[type='radio']{
     border-bottom: solid 2px red;
 }
 .form input:required:valid{
     border-bottom: solid 8px greenform
 }
-h1,footer{
-    background-color: black;
-    color: aliceblue;
+h1{
+    /* background-color: black; */
+    color: black;
     text-align: center;
+    background-image: linear-gradient(black,aliceblue,black);
 }
 footer{
     margin-top: 0;
+    font-size: .7rem;
+    border-top: 20px solid aliceblue;
+     background-color: black; 
+     color: aliceblue;
+     text-align: center;
 }
 h1{
     margin-bottom: 0;
