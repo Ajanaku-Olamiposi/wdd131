@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <meta name="description" content="BYU-Idaho WDD 131 Web Fundamentals-This Page Is all about Ajanaku Olamiposi, getting you to know me more">
+    <meta name="author" content="Ajanaku Olamiposi">
+    <link rel="stylesheet" href="styles/forms.css">
+    <link rel="stylesheet" href="styles/forms-large.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
+    <script src="scripts/forms.js" defer></script>
+</head>
+<body>
+    <header><h1>Product Review</h1></header>
+    <main>
+        <form method="get" action="review.html" class="form">
+            <label>Product Name
+                <select id="product" name="product" required>
+                   <option value="" disabled selected>Select a Product...</option>
+                </select>
+            </label>
+
+            <label>Overall Rating</label>
+            <label><input type="radio" id="star" name="star" required ><span>☆</span></label>
+            <label><input type="radio" id="star" name="star" required ><span>☆☆</span></label>
+            <label><input type="radio" id="star" name="star" required ><span>☆☆☆</span></label>
+            <label><input type="radio" id="star" name="star" required ><span>☆☆☆☆</span></label>
+            <label><input type="radio" id="star" name="star" required ><span>☆☆☆☆☆</span></label>
+
+            <label>Date of installation <input type="date" name="completedate" required></label>
+            
+            <label>Which features did you find useful in the product?<br>(Check all that apply)</label>
+            <label><input type="checkbox" name="design" value="yes">Design</label>
+            <label><input type="checkbox" name="durability" value="yes">Durability</label>
+            <label><input type="checkbox" name="ease" value="yes">Ease of use</label>
+            <label><input type="checkbox" name="perform" value="yes">Performance</label>
+
+            <label for="review">Written Review:</label>
+            <textarea id="review" name="review" rows="4" cols="50" placeholder="Write your review here..."></textarea>
+
+            <label>Your name(optional)<input type="text" id="username" name="username"></label>
+
+            <input type="submit" value="Post Review">
+        </form>
+    </main>
+    <footer>
+        <p>© <span id="currentyear"></span> | Ajanaku Olamiposi | London, Uk</p>
+        <p id="lastmodified"></p>
+    </footer>
+</body>
+</html>

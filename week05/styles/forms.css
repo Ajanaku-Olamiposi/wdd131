@@ -1,0 +1,77 @@
+body{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    /* display: grid;
+    place-items: center;
+    height: 100vh;
+    margin: 0; */
+    display: flex;
+	flex-direction: column;
+	justify-content: center;
+    /* border: 2px solid black; */
+}
+main{
+    background-color: aliceblue;
+    padding-left: 2.5px;
+}
+.form label{
+    display: block;
+    padding-top: 1rem;
+    font-size: .9rem;
+}
+.form input[type='text'],
+.form input[type='date'],
+.form select
+{
+    background-color: white;
+    display: block;
+    border: solid 1px grey;
+    /* border-radius: 6px; */
+    padding: .75rem; 
+    width: 255px; 
+}
+
+.form textarea{
+    width: 275px;
+}
+.form select{
+    width: 280px;
+}
+.form input[type='radio'],
+.form input[type='checkbox']{
+    margin-right: 6px;
+}
+input[type="radio"]:checked ~ span{
+    color: red;
+}
+.form input[type='submit']{
+    border: none;
+    color:white;
+    background-image: linear-gradient(red,blue);
+    border-radius: 6px;
+    /* width: 96%; */
+    padding: .8rem;
+    /* max-width: 400px; */
+    margin-top: .2rem;
+    /* margin: -1rem 2% 2rem 2%; */
+    box-shadow: 1px 1px 4px blue ;
+    appearance: none;
+}
+.form input:required{
+    border-bottom: solid 2px red;
+}
+.form input:required:valid{
+    border-bottom: solid 8px greenform
+}
+h1,footer{
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+}
+footer{
+    margin-top: 0;
+}
+h1{
+    margin-bottom: 0;
+    margin-top: 0;
+}
