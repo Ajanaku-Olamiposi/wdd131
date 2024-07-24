@@ -70,7 +70,7 @@ div{
     border-bottom: solid 2px red;
 }
 .form input:required:valid{
-    border-bottom: solid 8px greenform
+    border-bottom: solid 8px green
 }
 h1{
     /* background-color: black; */
