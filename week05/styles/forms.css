@@ -61,7 +61,6 @@ div{
     /* box-shadow: 1px 1px 4px black ; */
     appearance: none;
     position: absolute;
-    bottom: px;
     right: 10px;
     font-size: 1.18rem;
 }
@@ -75,9 +74,9 @@ div{
 }
 h1{
     /* background-color: black; */
-    color: black;
+    color: aliceblue;
     text-align: center;
-    background-image: linear-gradient(black,aliceblue,black);
+    background-image: linear-gradient(black,grey,black);
 }
 footer{
     margin-top: 0;

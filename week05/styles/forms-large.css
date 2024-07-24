@@ -1,4 +1,4 @@
-@media screen and (min-width: 768px){
+@media screen and (min-width: 700px){
     body{
 		max-width: 1000px;
 		margin: 1rem auto;
@@ -12,5 +12,19 @@
     }
     .form select{
         width: 700px;
+    }
+    div{
+        position: none;
+    }
+    .form input[type='submit']{
+        position: none;
+        left: 0px; 
+        width: 700px;
+        padding-left: 0; 
+        margin-top: 20px; 
+    }
+    main{
+         padding-bottom: 60px; 
+
     }
 }
