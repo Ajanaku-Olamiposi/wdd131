@@ -45,7 +45,7 @@ main{
 input[type="radio"]:checked ~ span{
     color: red;
 }
-div{
+.form div{
     position: relative;
 }
 .form input[type='submit']{
